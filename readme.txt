@@ -8,5 +8,4 @@ aaaaaaaa
 bbbbbbbb
 cccccccc
 dddddddd
-<<<<<<< HEAD
 gggggggg
