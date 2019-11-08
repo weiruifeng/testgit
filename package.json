@@ -1,11 +1,12 @@
 {
   "name": "testgit",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "this is a git test",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,8 @@
   },
   "homepage": "https://github.com/weiruifeng/testgit#readme",
   "dependencies": {
-    "husky": "^4.0.0-beta.5"
+    "husky": "^4.0.0-beta.5",
+    "standard-version": "^7.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
