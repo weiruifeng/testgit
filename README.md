@@ -113,3 +113,15 @@ This reverts commit 667ecc1654a317a13331b17617d973392f415f02.
 Body部分的格式是固定的，必须写成`This reverts commit <hash>.`，其中的`hash`是被撤销 commit 的 SHA 标识符。
 
 如果当前 commit 与被撤销的 commit，在同一个发布（release）里面，那么它们都不会出现在 Change log 里面。如果两者在不同的发布，那么当前 commit，会出现在 Change log 的`Reverts`小标题下面。
+
+## 语义化版本
+
+[语义化版本](https://semver.org/lang/zh-CN/)
+
+版本格式：主版本号.次版本号.修订号，版本号递增规则如下：
+
+1. 主版本号(major)：当你做了不兼容的 API 修改
+2. 次版本号(minor)：当你做了向下兼容的功能性新增
+3. 修订号(patch)：当你做了向下兼容的问题修正
+
+先行版本号及版本编译元数据可以加到“主版本号.次版本号.修订号”的后面，作为延伸。
