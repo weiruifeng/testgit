@@ -1,3 +1,14 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [1.1.0](https://github.com/weiruifeng/testgit/compare/v2.0.0...v1.1.0) (2019-11-11)
+
+
+### Features
+
+* **changelog:** add changelog ([3363f7b](https://github.com/weiruifeng/testgit/commit/3363f7b8939f1c75aad19b35115d527cebe519a5))
+
 ## [1.0.1](https://github.com/weiruifeng/testgit/compare/v2.0.0...v1.0.1) (2019-11-11)
 
 
@@ -19,6 +30,3 @@
 ### BREAKING CHANGES
 
 * **package:** add commitizen breaking changes
-
-
-
