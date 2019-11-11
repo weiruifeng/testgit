@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/weiruifeng/testgit/compare/v3.0.2...v4.0.0) (2019-11-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **break:** add commitizen breaking changes
+
+### Document
+
+* **break:** break one ([a7a8b2b](https://github.com/weiruifeng/testgit/commit/a7a8b2bd4905135675a896e395f936f1da7dc7e8)), closes [#123](https://github.com/weiruifeng/testgit/issues/123)
+
 ### [3.0.2](https://github.com/weiruifeng/testgit/compare/v3.0.1...v3.0.2) (2019-11-11)
 
 ### [3.0.1](https://github.com/weiruifeng/testgit/compare/v3.0.0...v3.0.1) (2019-11-11)
