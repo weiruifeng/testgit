@@ -88,3 +88,28 @@ The removed `inject` wasn't generaly useful for directives so there should be no
 
 #### 关闭Issue
 
+如果当前 commit 针对某个issue，那么可以在 Footer 部分关闭这个 issue 。
+
+```
+Closes #234
+```
+
+也可以一次关闭多个issue
+
+```
+Closes #123, #245, #992
+```
+
+### Revert
+
+还有一种特殊情况，如果当前 commit 用于撤销以前的 commit，则必须以`revert:`开头，后面跟着被撤销 Commit 的 Header。
+
+```
+revert: feat(pencil): add 'graphiteWidth' option
+
+This reverts commit 667ecc1654a317a13331b17617d973392f415f02.
+```
+
+Body部分的格式是固定的，必须写成`This reverts commit <hash>.`，其中的`hash`是被撤销 commit 的 SHA 标识符。
+
+如果当前 commit 与被撤销的 commit，在同一个发布（release）里面，那么它们都不会出现在 Change log 里面。如果两者在不同的发布，那么当前 commit，会出现在 Change log 的`Reverts`小标题下面。
