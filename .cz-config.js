@@ -1,61 +1,61 @@
+/**
+ * https://github.com/leonardoanalista/cz-customizable
+ */
 module.exports = {
   types: [
-    { value: 'feat', name: 'feat: 新增功能' },
-    { value: 'fix', name: 'fix: 修复BUG' },
-    { value: 'docs', name: 'docs: 文档修改' },
     {
-      value: 'style', name: 'style: 修改代码格式'
+      value: 'feat',
+      name: 'feat:      新增功能'
     },
     {
-      value: 'refactor', name: 'refactor: 代码重构'
+      value: 'fix',
+      name: 'fix:       修复BUG'
     },
-    { value: 'test', name: 'test: 测试用例相关' },
     {
-      value: 'chore', name: 'chore: 构建过程或辅助工具的变动'
+      value: 'docs',
+      name: 'docs:      文档修改'
     },
-    { value: 'revert', name: 'revert: 撤销' },
-    { value: 'WIP', name: 'WIP: 开发中' },
+    {
+      value: 'style',
+      name: 'style:     修改代码格式'
+    },
+    {
+      value: 'test',
+      name: 'test:      测试用例相关'
+    },
+    {
+      value: 'chore',
+      name: 'chore:     构建过程或辅助工具的变动'
+    },
+    {
+      value: 'refactor',
+      name: 'refactor:  代码重构'
+    },
+    {
+      value: 'revert',
+      name: 'revert:    撤销'
+    }
   ],
 
-  scopes: [{ name: 'accounts' }, { name: 'admin' }, { name: 'exampleScope' }, { name: 'changeMe' }],
+  scopes: [{ name: 'react' }, { name: 'sdk' }, { name: 'vue' }],
 
   allowTicketNumber: false,
   isTicketNumberRequired: false,
   ticketNumberPrefix: 'TICKET-',
   ticketNumberRegExp: '\\d{1,5}',
-
-  // it needs to match the value for field type. Eg.: 'fix'
-  /*
-  scopeOverrides: {
-    fix: [
-      {name: 'merge'},
-      {name: 'style'},
-      {name: 'e2eTest'},
-      {name: 'unitTest'}
-    ]
-  },
-  */
-  // override the messages, defaults are as follows
   messages: {
-    type: "Select the type of change that you're committing:",
-    scope: '\nDenote the SCOPE of this change (optional):',
+    type: "选择您要提交的更改类型：",
+    scope: '\n更改的范围（可选）：',
     // used if allowCustomScopes is true
-    customScope: 'Denote the SCOPE of this change:',
-    subject: 'Write a SHORT, IMPERATIVE tense description of the change:\n',
-    body: 'Provide a LONGER description of the change (optional). Use "|" to break new line:\n',
-    breaking: 'List any BREAKING CHANGES (optional):\n',
-    footer: 'List any ISSUES CLOSED by this change (optional). E.g.: #31, #34:\n',
-    confirmCommit: 'Are you sure you want to proceed with the commit above?',
+    customScope: '更改的范围：',
+    subject: '撰写简短的变更描述：\n',
+    body: '撰写更改的详细描述（可选）， 使用“ |” 换行:\n',
+    breaking: '列出不兼容变动（可选）:\n',
+    footer: 'ISSUES CLOSED (可选). 例: #31, #34:\n',
+    confirmCommit: '是否要继续提交？',
   },
 
-  allowCustomScopes: true,
+  allowCustomScopes: false,
   allowBreakingChanges: ['feat', 'fix'],
-  // skip any questions you want
-  skipQuestions: ['body'],
-
-  // limit subject length
   subjectLimit: 100,
-  // breaklineChar: '|', // It is supported for fields body and footer.
-  // footerPrefix : 'ISSUES CLOSED:'
-  // askForBreakingChangeFirst : true, // default is false
 };
