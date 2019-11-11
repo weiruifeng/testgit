@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/weiruifeng/testgit/compare/v1.9.2...v1.10.0) (2019-11-11)
+
+
+### Features
+
+* feat ([3784cac](https://github.com/weiruifeng/testgit/commit/3784cacbc277ae47ff44af6f724d7aa23df6074f))
+
 ### [1.9.2](https://github.com/weiruifeng/testgit/compare/v1.9.1...v1.9.2) (2019-11-11)
 
 ### [1.9.1](https://github.com/weiruifeng/testgit/compare/v1.9.0...v1.9.1) (2019-11-11)
