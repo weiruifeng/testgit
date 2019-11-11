@@ -21,7 +21,7 @@ echo "Branch is $branch"
 echo "Release as $release"
 
 # Tag prefix
-prefix="prefix_v"
+prefix="v"
 
 git pull origin $branch
 echo "Current pull origin $branch."
