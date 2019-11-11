@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/weiruifeng/testgit/compare/v1.1.1...v1.2.0) (2019-11-11)
+
+
+### Features
+
+* **sdk:** 修复sdk ([55b9e51](https://github.com/weiruifeng/testgit/commit/55b9e51d9b42a45d29fc57e1c429f457fb17cb10))
+* **sdk:** 添加新需求 ([f672fbd](https://github.com/weiruifeng/testgit/commit/f672fbd5b8ea13af342499cfc43761840c3900ee)), closes [#898](https://github.com/weiruifeng/testgit/issues/898)
+
 ### [1.1.1](https://github.com/weiruifeng/testgit/compare/v1.1.0...v1.1.1) (2019-11-11)
 
 
