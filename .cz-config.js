@@ -56,6 +56,6 @@ module.exports = {
   },
 
   allowCustomScopes: false,
-  allowBreakingChanges: ['feat', 'fix', 'refactor'],
+  // allowBreakingChanges: ['feat', 'fix'],
   subjectLimit: 100,
 };
