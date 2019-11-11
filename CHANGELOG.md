@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/weiruifeng/testgit/compare/v1.7.0...v1.8.0) (2019-11-11)
+
+
+### Bug Fixes
+
+* **sdk:** 修复bug ([42833e4](https://github.com/weiruifeng/testgit/commit/42833e493d0b5f9ecb28fb5d7762003ab2b67893)), closes [#47](https://github.com/weiruifeng/testgit/issues/47)
+
 ## [1.7.0](https://github.com/weiruifeng/testgit/compare/v1.6.0...v1.7.0) (2019-11-11)
 
 ## [1.6.0](https://github.com/weiruifeng/testgit/compare/v1.5.0...v1.6.0) (2019-11-11)
