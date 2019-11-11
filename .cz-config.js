@@ -37,7 +37,7 @@ module.exports = {
     }
   ],
 
-  scopes: [{ name: 'react' }, { name: 'sdk' }, { name: 'vue' }],
+  scopes: [{ name: 'react' }, { name: 'sdk' }, { name: 'vue' }, { name: 'other' }],
 
   allowTicketNumber: false,
   isTicketNumberRequired: false,
@@ -50,7 +50,7 @@ module.exports = {
     customScope: '更改的范围：',
     subject: '撰写简短的变更描述：\n',
     body: '撰写更改的详细描述（可选）， 使用“ |” 换行:\n',
-    breaking: '列出不兼容变动（可选）:\n',
+    breaking: '不兼容变动（可选）:\n',
     footer: 'ISSUES CLOSED (可选). 例: #31, #34:\n',
     confirmCommit: '是否要继续提交？',
   },
