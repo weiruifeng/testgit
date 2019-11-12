@@ -1,4 +1,6 @@
-#
+'#
+## [4.17.0](https://github.com/weiruifeng/testgit/compare/v4.16.0...v4.17.0) (2019-11-12)
+
 ## [4.16.0](https://github.com/weiruifeng/testgit/compare/v4.15.0...v4.16.0) (2019-11-12)
 
 ## [4.15.0](https://github.com/weiruifeng/testgit/compare/v4.14.0...v4.15.0) (2019-11-12)
