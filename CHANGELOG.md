@@ -1,4 +1,11 @@
 # Changelog 
+### [4.21.7](https://github.com/weiruifeng/testgit/compare/v4.21.6...v4.21.7) (2019-11-12)
+
+
+### Bug Fixes
+
+* **other:** 修复BUG ([c58acd5](https://github.com/weiruifeng/testgit/commit/c58acd5e933da0aea953968ccde700754e12f383)), closes [#516](https://github.com/weisizong/testgit/issues/516)
+
 ### [4.21.6](https://github.com/weiruifeng/testgit/compare/v4.21.5...v4.21.6) (2019-11-12)
 
 
