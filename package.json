@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git add . && ./node_modules/cz-customizable/standalone.js",
     "commit1": "git-cz",
-    "release": "bash ./scripts/release.sh",
-    "release1": "standard-version",
+    "releaseSh": "bash ./scripts/release.sh",
+    "release": "standard-version",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "repository": {
