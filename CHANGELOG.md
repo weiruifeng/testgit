@@ -1,4 +1,11 @@
 # Changelog 
+### [4.21.3](https://github.com/weiruifeng/testgit/compare/v4.21.2...v4.21.3) (2019-11-12)
+
+
+### Document
+
+* **other:** 添加文档 ([f9e0291](https://github.com/weiruifeng/testgit/commit/f9e0291ed3046d19d0aa726fd7ad2fa4d70802e8))
+
 ### [4.21.2](https://github.com/weiruifeng/testgit/compare/v4.21.1...v4.21.2) (2019-11-12)
 
 ### [4.21.1](https://github.com/weiruifeng/testgit/compare/v4.21.0...v4.21.1) (2019-11-12)
