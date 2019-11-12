@@ -1,4 +1,6 @@
 # Changelog 
+### [4.21.2](https://github.com/weiruifeng/testgit/compare/v4.21.1...v4.21.2) (2019-11-12)
+
 ### [4.21.1](https://github.com/weiruifeng/testgit/compare/v4.21.0...v4.21.1) (2019-11-12)
 
 ## [4.21.0](https://github.com/weiruifeng/testgit/compare/v4.20.5...v4.21.0) (2019-11-12)
