@@ -140,6 +140,18 @@ module.exports = {
 
 ### changelog说明
 
+#### 什么时候使用
+
+1. 将代码提交合并到本地主分支
+2. 准备打tag发布
+3. git checkout master; git pull origin master
+4. 执行 `yarn release  ` 
+5. git push --follow-tags origin master && npm publish
+
+可以看到，使用changelog是在第四步
+
+#### 使用方法
+
 执行  `yarn release  ` 便可以进行tag更新和changlog的收集，版本以package.json中的version为基础，可以添加参数对不同版本进行更新。
 
 版本格式如下：
