@@ -1,4 +1,11 @@
 # Changelog 
+### [4.21.6](https://github.com/weiruifeng/testgit/compare/v4.21.5...v4.21.6) (2019-11-12)
+
+
+### Bug Fixes
+
+* **sdk:** 修复bug ([9dd7f1a](https://github.com/weiruifeng/testgit/commit/9dd7f1a1b0d291858f2070211a757434949255d4)), closes [#781](https://github.com/weiruifeng/testgit/issues/781)
+
 ### [4.21.5](https://github.com/weiruifeng/testgit/compare/v4.21.4...v4.21.5) (2019-11-12)
 
 
