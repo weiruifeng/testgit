@@ -1,4 +1,11 @@
 # Changelog 
+### [4.21.5](https://github.com/weiruifeng/testgit/compare/v4.21.4...v4.21.5) (2019-11-12)
+
+
+### Document
+
+* **other:** 添加other ([0820caa](https://github.com/weiruifeng/testgit/commit/0820caac52e6a90082730637183298c9c84be65b))
+
 ### [4.21.4](https://github.com/weiruifeng/testgit/compare/v4.21.3...v4.21.4) (2019-11-12)
 
 ### [4.21.3](https://github.com/weiruifeng/testgit/compare/v4.21.2...v4.21.3) (2019-11-12)
