@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.20.4](https://github.com/weiruifeng/testgit/compare/v4.20.3...v4.20.4) (2019-11-12)
+
 ### [4.20.3](https://github.com/weiruifeng/testgit/compare/v4.20.2...v4.20.3) (2019-11-12)
 
 ### [4.20.2](https://github.com/weiruifeng/testgit/compare/v4.20.1...v4.20.2) (2019-11-12)
