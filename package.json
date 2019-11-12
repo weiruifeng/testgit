@@ -1,6 +1,6 @@
 {
   "name": "testgit-sizong",
-  "version": "4.21.3",
+  "version": "4.21.4",
   "description": "this is a git test",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,8 @@
     "commitlint-config-cz": "^0.12.1",
     "conventional-changelog-cli": "^2.0.27",
     "cz-conventional-changelog": "^3.0.2",
-    "cz-customizable": "^6.2.0"
+    "cz-customizable": "^6.2.0",
+    "lint-staged": "^9.4.2"
   },
   "config": {
     "commitizen": {
@@ -42,7 +43,13 @@
   },
   "husky": {
     "hooks": {
+      "pre-commit": "lint-staged",
       "commit-msg": "commitlint -e $GIT_PARAMS"
     }
+  },
+  "lint-staged": {
+    "./**": [
+      "git add"
+    ]
   }
 }
