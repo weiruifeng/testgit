@@ -1,6 +1,5 @@
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+# Changelog\n\n
+## [4.5.0](https://github.com/weiruifeng/testgit/compare/v4.4.0...v4.5.0) (2019-11-12)
 
 ## [4.4.0](https://github.com/weiruifeng/testgit/compare/v4.3.0...v4.4.0) (2019-11-12)
 
