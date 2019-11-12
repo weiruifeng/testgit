@@ -1,8 +1,6 @@
-/**
- * https://github.com/leonardoanalista/cz-customizable
- */
-module.exports = {
-  "types": [
+{
+  "changelogHeader": "# Changelog ",
+   "types": [
     { "type": "feat", "section": "Features" },
     { "type": "fix", "section": "Bug Fixes" },
     { "type": "chore", "hidden": true },
@@ -12,5 +10,4 @@ module.exports = {
     { "type": "perf", "hidden": true },
     { "type": "test", "hidden": true }
   ]
-  "changelogHeader": "# Changelog "
-};
+}

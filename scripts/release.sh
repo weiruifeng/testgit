@@ -33,7 +33,7 @@ git pull origin $branch
 echo "Current pull origin $branch."
 
 # Generate version number and tag
-standard-version -r $release --tag-prefix $prefix --infile CHANGELOG.md --changelogHeader $changelogHeader
+standard-version -r $release --tag-prefix $prefix --infile CHANGELOG.md --changelogHeader "# Changelog "
 
 #git push --follow-tags origin $branch
 
