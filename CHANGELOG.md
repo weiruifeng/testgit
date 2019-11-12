@@ -1,4 +1,12 @@
 # Changelog 
+### [4.21.9](https://github.com/weiruifeng/testgit/compare/v4.21.8...v4.21.9) (2019-11-12)
+
+
+### Document
+
+* **other:** 修改commit配置 ([802490c](https://github.com/weiruifeng/testgit/commit/802490c607ece4d334d51288f27c01e96b7ff32b))
+* **other:** 补全readme ([3c9902d](https://github.com/weiruifeng/testgit/commit/3c9902d21a28efe522c7b548a17e0e7ccb569380))
+
 ### [4.21.8](https://github.com/weiruifeng/testgit/compare/v4.21.7...v4.21.8) (2019-11-12)
 
 
