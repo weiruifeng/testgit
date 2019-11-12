@@ -24,8 +24,8 @@ module.exports = {
       name: 'test:      测试用例相关'
     },
     {
-      value: 'chore',
-      name: 'chore:     构建过程或辅助工具的变动'
+      value: 'build',
+      name: 'build:     构建过程或辅助工具的变动'
     },
     {
       value: 'refactor',
