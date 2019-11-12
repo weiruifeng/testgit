@@ -1,4 +1,11 @@
 # Changelog 
+### [4.21.8](https://github.com/weiruifeng/testgit/compare/v4.21.7...v4.21.8) (2019-11-12)
+
+
+### Document
+
+* **other:** 补充readme ([5374dcc](https://github.com/weiruifeng/testgit/commit/5374dccb1a3d4a16b1b683e4eaf3980e63298e20))
+
 ### [4.21.7](https://github.com/weiruifeng/testgit/compare/v4.21.6...v4.21.7) (2019-11-12)
 
 
