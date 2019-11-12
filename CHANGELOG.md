@@ -1,4 +1,6 @@
-# Changelog 
+#
+## [4.8.0](https://github.com/weiruifeng/testgit/compare/v4.7.0...v4.8.0) (2019-11-12)
+
 ## [4.7.0](https://github.com/weiruifeng/testgit/compare/v4.6.0...v4.7.0) (2019-11-12)
 
 ## [4.6.0](https://github.com/weiruifeng/testgit/compare/v4.5.0...v4.6.0) (2019-11-12)
