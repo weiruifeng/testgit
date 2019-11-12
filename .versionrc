@@ -1,5 +1,6 @@
 {
   "changelogHeader": "# Changelog ",
+  "issueUrlFormat": "https://github.com/weisizong/testgit/issues/{{id}}",
    "types": [
     { "type": "feat", "section": "Features" },
     { "type": "fix", "section": "Bug Fixes" },
