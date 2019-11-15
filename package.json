@@ -1,11 +1,17 @@
 {
   "name": "testgit-sizong",
+<<<<<<< HEAD
   "version": "1.2.1",
+=======
+  "version": "4.21.9",
+>>>>>>> master
   "description": "this is a git test",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "./node_modules/cz-customizable/standalone.js",
+    "commit": "git add . && ./node_modules/cz-customizable/standalone.js",
+    "commit1": "git-cz",
+    "releaseSh": "bash ./scripts/release.sh",
     "release": "standard-version",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
@@ -16,7 +22,7 @@
   "author": "sizong",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/weiruifeng/testgit/issues"
+    "url": "https://github.com/weisizong/testgit/issues"
   },
   "homepage": "https://github.com/weiruifeng/testgit#readme",
   "dependencies": {
@@ -30,12 +36,13 @@
     "commitlint-config-cz": "^0.12.1",
     "conventional-changelog-cli": "^2.0.27",
     "cz-conventional-changelog": "^3.0.2",
-    "cz-customizable": "^6.2.0"
+    "cz-customizable": "^6.2.0",
+    "lint-staged": "^9.4.2"
   },
   "config": {
     "commitizen": {
-      "pathInit": "node_modules/cz-conventional-changelog",
-      "path": "node_modules/cz-customizable"
+      "path": "node_modules/cz-conventional-changelog",
+      "pathauto": "node_modules/cz-customizable"
     }
   },
   "husky": {
