@@ -269,7 +269,7 @@ changelog是采用 `standard-version` 来生成的，版本生成采用的是[�
 
 ### commit提交校验
 
-`husky` 是针对commit提交的时候做的一些校验，本项目只针对 [Angular 团队的规范](https://link.zhihu.com/?target=https%3A//github.com/angular/angular.js/blob/master/DEVELOPERS.md%23-git-commit-guidelines) 做了校验，如果校验不通过，则无法commit提交，`.commitlintrc.js` 里面是具体校验，
+`husky` 是针对commit提交的时候做的一些校验，本项目只针对 [Angular 团队的规范](https://link.zhihu.com/?target=https%3A//github.com/angular/angular.js/blob/master/DEVELOPERS.md%23-git-commit-guidelines) 做了校验，如果校验不通过，则无法commit提交，`.commitlintrc.js` 里面是具体校验。
 
 具体校验可以参考 [此处](https://github.com/conventional-changelog/commitlint)。
 
