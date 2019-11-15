@@ -1,10 +1,6 @@
 {
   "name": "testgit-sizong",
-<<<<<<< HEAD
-  "version": "1.2.1",
-=======
   "version": "4.21.9",
->>>>>>> master
   "description": "this is a git test",
   "main": "index.js",
   "scripts": {
