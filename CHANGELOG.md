@@ -2,6 +2,11 @@
 ### [4.21.9](https://github.com/weiruifeng/testgit/compare/v4.21.8...v4.21.9) (2019-11-12)
 
 
+<<<<<<< HEAD
+### [1.2.1](https://github.com/weiruifeng/testgit/compare/v1.2.0...v1.2.1) (2019-11-11)
+
+## [1.2.0](https://github.com/weiruifeng/testgit/compare/v1.1.1...v1.2.0) (2019-11-11)
+=======
 ### Document
 
 * **other:** 修改commit配置 ([802490c](https://github.com/weiruifeng/testgit/commit/802490c607ece4d334d51288f27c01e96b7ff32b))
@@ -177,6 +182,7 @@
 
 
 # [1.3.0](https://github.com/weiruifeng/testgit/compare/v1.1.1...v1.3.0) (2019-11-11)
+>>>>>>> master
 
 
 ### Features
@@ -184,8 +190,11 @@
 * **sdk:** 修复sdk ([55b9e51](https://github.com/weiruifeng/testgit/commit/55b9e51d9b42a45d29fc57e1c429f457fb17cb10))
 * **sdk:** 添加新需求 ([f672fbd](https://github.com/weiruifeng/testgit/commit/f672fbd5b8ea13af342499cfc43761840c3900ee)), closes [#898](https://github.com/weiruifeng/testgit/issues/898)
 
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> master
 ## [1.1.1](https://github.com/weiruifeng/testgit/compare/v1.1.0...v1.1.1) (2019-11-11)
 
 
